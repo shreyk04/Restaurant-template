@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 9;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+
+  background: url("https://images.pexels.com/photos/1458677/pexels-photo-1458677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    no-repeat center center/cover;
+}
+.container h1 {
+  font-family: "Arvo", serif;
+}
+.container h2,
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+#homepage .logo img {
+  margin-left: 2rem;
+}
+nav {
+  font-family: "Roboto Slab", serif;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 2rem;
+  padding: 1rem;
+  color: black;
+  font-size: 1.3rem;
+}
+nav ul li a:hover {
+  border: 2px dotted brown;
+}
+nav h4 {
+  color: aliceblue;
+  margin: 1rem;
+  padding: 1rem;
+}
+.container .active {
+  color: orangered;
+}
+.btn {
+  margin-right: 2rem;
+  background-color: rgb(240, 76, 11);
+  padding: 0.6rem;
+  border-radius: 1.2rem;
+  border: none;
+  font-family: "Roboto Slab", serif;
+  color: aliceblue;
+}
+.btn:hover {
+  border: 2px solid darkred;
+  background: transparent;
+  color: black;
+  cursor: pointer;
+}
+.text {
+  color: rgb(226, 243, 243);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* text-align: center; */
+
+  margin: auto;
+}
+.box h1 {
+  margin: 2rem;
+  font-size: 4rem;
+  color: rgb(201, 19, 6);
+  font-weight: 800;
+}
+.box p {
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgba(30, 4, 48, 0.712);
+  letter-spacing: 2px;
+}
+.box {
+  text-align: center;
+}
+.mid {
+  width: 100%;
+  min-height: calc(100vh - 5rem);
+}
+#sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section1 {
+  background-color: rgb(253, 246, 246);
+  height: 50rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 5rem;
+}
+.heading h1 {
+  font-size: 3rem;
+  color: brown;
+}
+.heading p {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+#boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#about-section .logo {
+  width: 90px;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  margin: 30px;
+  padding: 40px 40px;
+  width: 30%;
+  box-shadow: 0px 0px 25px 0px gainsboro;
+  border-radius: 10px;
+}
+#about-section .box1 h2 {
+  color: brown;
+}
+.box1 img {
+  height: 50%;
+}
+.box1 .text1 {
+  padding: 1rem;
+  height: 50%;
+  text-align: center;
+}
+.box1 .text1 p {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+
+/* MENU SECTION */
+
+#menu-section {
+  padding: 3rem;
+  background: url(https://images.pexels.com/photos/4553118/pexels-photo-4553118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.menu-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+#menu-section .menu-text p {
+  margin-top: 3rem;
+  font-size: 1.3rem;
+}
+
+#menu-section .menu-nav ul li a {
+  padding-right: 4rem;
+  color: black;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+#menu-section .head {
+  display: flex;
+  justify-content: space-between;
+}
+#menu-section .head h1 {
+  font-size: 2.8rem;
+  font-family: "Arvo", serif;
+  color: brown;
+}
+#menu-section .line {
+  background-color: chartreuse;
+  height: 3px;
+  width: 96%;
+  margin: auto;
+}
+#menu-section .menu-box {
+  padding: 10px 10px;
+  background-color: white;
+}
+#menu-section .menu-nav .active {
+  color: crimson;
+  border-bottom: 3px solid black;
+}
+
+/* BOOKING SECTION */
+
+#section3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5rem;
+  background-color: rgb(241, 233, 233);
+}
+.booking_sec {
+  display: flex;
+  background-color: rgb(58, 55, 46);
+}
+#section3 img {
+  width: 600px;
+  height: 600px;
+  border-radius: 1rem;
+}
+
+#section3 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 1rem;
+}
+#section3 input,
+.choice,
+.btn3 {
+  width: 20rem;
+  padding: 0.7rem;
+  margin: 0.8rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  border-color: brown;
+  color: black;
+}
+input,
+textarea {
+  outline: none;
+}
+#section3 form h1 {
+  font-size: 3rem;
+  color: brown;
+}
+#section3 form p {
+  font-size: 20px;
+  margin: 20px 10px;
+}
+.rating {
+  margin-top: 1.4rem;
+}
+.fa {
+  color: rgb(41, 4, 4);
+}
+.box1 .user {
+  width: 4rem;
+  border-radius: 50%;
+}
+#section4 .images {
+  display: flex;
+  padding: 5rem;
+}
+#section4 .images img {
+  width: 350px;
+  height: 350px;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+  background: whitesmoke;
+}
+#address-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6rem;
+}
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .address h1,
+p {
+  padding: 1.5rem;
+}
+#footer .connect input {
+  padding: 0.7rem;
+  border-radius: 10px;
+}
+
+#footer .btn1 {
+  margin-bottom: 2rem;
+  margin-right: 0rem;
+}
+
+#footer .social-media i {
+  padding: 1rem;
+  font-size: 1.3rem;
+  border: 1px solid orangered;
+  margin: 0.7rem;
+  border-radius: 50%;
+  border-style: dashed;
+  color: orangered;
+}
+#footer .social-media i:hover {
+  background-color: orangered;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .container {
+    display: none;
+  }
+}
