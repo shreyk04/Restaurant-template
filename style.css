@@ -4,11 +4,10 @@
   box-sizing: border-box;
 }
 .container {
-  height: 100vh;
+  height: 100%;
   width: 100%;
 
-  background: url("https://images.pexels.com/photos/1458677/pexels-photo-1458677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
-    no-repeat center center/cover;
+ 
 }
 .container h1 {
   font-family: "Arvo", serif;
@@ -16,6 +15,12 @@
 .container h2,
 p {
   font-family: "IBM Plex Sans", sans-serif;
+}
+#homepage{
+ background: url("https://images.pexels.com/photos/1458677/pexels-photo-1458677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    no-repeat center center/cover;
+   width: 100%;
+  height: 100%;
 }
 #homepage .logo img {
   margin-left: 2rem;
